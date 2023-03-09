@@ -5,15 +5,21 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
-    [SerializeField] float constrolSpeed = 30f;
-    [SerializeField] float xRange = 10f;
-    [SerializeField] float yRange = 7f;
-    [SerializeField] GameObject[] lasers;
+    [Header("General setup settings")]
+    [Tooltip("How fast ship moves up and down")][SerializeField] float constrolSpeed = 30f;
+    [Tooltip("How fast ship moves horizontally")][SerializeField] float xRange = 10f;
+    [Tooltip("How fast ship moves vertically")][SerializeField] float yRange = 7f;
 
+    [Header("Screen position based tuning")]
     [SerializeField] float positionPitchFactor = -2f;
-    [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float positionYawFactor = 2f;
+
+    [Header("Player input based tuning")]
+    [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float controlRollFactor = -20f;
+
+    [Header("Laser gun array")]
+    [Tooltip("Add all player lasers here")][SerializeField] GameObject[] lasers;
 
     float yThrow, xThrow;
 
