@@ -193,6 +193,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Ship
       objectReference: {fileID: 0}
+    - target: {fileID: 8637770652249138918, guid: 4080775f49fa0124bbef4665bc933d9e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637770652249138918, guid: 4080775f49fa0124bbef4665bc933d9e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637770652249138918, guid: 4080775f49fa0124bbef4665bc933d9e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637770652249138918, guid: 4080775f49fa0124bbef4665bc933d9e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637770652249138918, guid: 4080775f49fa0124bbef4665bc933d9e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637770652249138918, guid: 4080775f49fa0124bbef4665bc933d9e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4080775f49fa0124bbef4665bc933d9e, type: 3}
 --- !u!4 &4730353261143953720 stripped
